@@ -207,7 +207,7 @@ angular.module('zeus', [
       }
       return localStorage.getItem('id_token');
     }],
-    whiteListedDomains: ['localhost:3000'],
+    whiteListedDomains: ['localhost:3000','http://138.197.5.236:3000/','https://138.197.5.236:3000/'],
     unauthenticatedRedirectPath: '/'
   });
   //Attatches token to each HTTP call
