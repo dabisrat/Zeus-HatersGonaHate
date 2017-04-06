@@ -6,8 +6,8 @@ var jwt = require('express-jwt');
 
 //Checks the token for authentication when attatched to route
 var authCheck = jwt({
-  secret: new Buffer('xb2O15v26aHQwrEBHj9g0ClMWPUU8qbQic2nWheL1ZILYWesPn3V67nPGF8H95Lv', 'base64'),
-  audience: '0cUlkKsftRF5gApO4Y6ojv3Rk5PZX8eE'
+  secret: new Buffer(process.env.secret, 'base64'),
+  audience: 'jYPMYlgiL8LUcwbOVQA2Oz0BlifZnPAn'
 });
 
 module.exports = function (app, express) {

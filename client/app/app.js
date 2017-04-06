@@ -188,8 +188,8 @@ angular.module('zeus', [
 
   //Auth 0 account info
   lockProvider.init({
-    clientID: '0cUlkKsftRF5gApO4Y6ojv3Rk5PZX8eE',
-    domain: 'jondeng.auth0.com',
+    clientID: 'jYPMYlgiL8LUcwbOVQA2Oz0BlifZnPAn',
+    domain: 'hrr19crushers.auth0.com',
     options: {
       auth: {
         redirect: false
